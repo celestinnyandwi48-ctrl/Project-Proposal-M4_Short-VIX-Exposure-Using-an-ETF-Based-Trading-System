@@ -20,8 +20,10 @@ Backtests a tactical regime-switching strategy—combining a 5-day / 87-day Simp
 Repository Architecture
 MScFE_690_Capstone_Short_VIX/
 │
-├── data/                                 # Standardized CSV datasets
-│   ├── VIX_data.csv                      # Spot VIX daily OHLC (2004–2026)
+├── data/    
+
+│   ├── VIX_data.csv
+
 │   ├── VVIX_data.csv                     # Volatility-of-Vol index OHLC (2007–2026)
 │   ├── SVXY_data.csv                     # Raw SVXY ETF daily OHLC
 │   ├── SVXY_synth-ONEx.csv               # Synthetic -1.0x daily exposure series (2011–2026)
